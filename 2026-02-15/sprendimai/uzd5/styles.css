@@ -1,0 +1,62 @@
+body {
+    width: 100%vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green-box {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(105, 156, 159);
+    margin-bottom: 25px;
+}
+
+p,
+h5 {
+    font-size: 2rem;
+}
+
+.red-num {
+    color: red;
+}
+
+#wBorder {
+    background-color: purple;
+    border: 8px dotted green;
+}
+
+.text-wrapper {
+    height: 600px;
+    width: 100%;
+
+    padding: 1rem;
+    margin: 3rem 0;
+
+    border-radius: 20px;
+    background-image: url(./img/braske.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: solid black;
+}
+
+.white-text {
+    font-family: "Times New Roman", Times, serif;
+    color: lightblue;
+}
+
+.text-bottom {
+    color: rgb(238, 127, 0);
+}
+
+.span-1 {
+    font-weight: bold;
+}
+
+.span-2 {
+    font-weight: bold;
+    color: blue;
+}

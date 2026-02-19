@@ -1,0 +1,49 @@
+.group-wrapper {
+    width: 200px;
+    margin: 100px;
+    padding: 8px 12px 8px 8px;
+    background-color: white;
+    border: 1px grey;
+}
+
+.flag-wrapper h3 {
+    font-size: 1.5rem;
+}
+
+.flag-block {
+    height: 150px;
+    border: 2px solid black;
+}
+
+.flag-block div {
+    height: 33.33%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+/* 
+h3 {
+    font-size: xx-large;
+} */
+
+body {
+    background-color: rgb(137, 177, 175);
+}
