@@ -1,0 +1,68 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(238, 238, 238);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.card-wrapper {
+    width: 470px;
+    height: 43%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.8rem;
+
+    padding: 1.8rem;
+}
+
+#main-img {
+    height: 225px;
+    width: 100%;
+}
+
+.article {
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.card-wrapper p {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.number {
+    font-size: 1.8rem;
+
+    font-weight: bolder;
+
+    color: red;
+}
+
+.fb {
+    display: inline-block;
+}
+
+.fb img {
+    width: 1.3rem;
+    height: 1.3rem;
+    display: inline-block;
+
+    margin-bottom: 0;
+}
